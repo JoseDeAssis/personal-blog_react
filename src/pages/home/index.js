@@ -1,4 +1,4 @@
-import Post from "components/PostCard";
+import PostCard from "components/PostCard";
 import styles from "./Home.module.css";
 import posts from "json/posts.json";
 
@@ -7,7 +7,7 @@ export default function Home() {
     <ul className={styles.posts}>
       {posts.map((post) => (
         <li key={post.id}>
-          <Post post={post} />
+          <PostCard post={post} />
         </li>
       ))}
     </ul>

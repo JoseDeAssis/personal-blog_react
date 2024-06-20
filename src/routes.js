@@ -6,18 +6,20 @@ import Menu from "components/Menu";
 import Footer from "components/Footer";
 import Post from "pages/Post";
 import NotFound from "pages/NotFound";
+import ScrollToTop from "components/ScrollToTop";
 
 function AppRoutes() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Menu />
       <Routes>
         <Route path="/" element={<DefaultPage />}>
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
-          <Route path="posts/:id" element={<Post />} />
         </Route>
 
+        <Route path="posts/:id/*" element={<Post />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />

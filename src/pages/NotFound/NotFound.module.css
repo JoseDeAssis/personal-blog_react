@@ -46,18 +46,18 @@
   .text404 {
       margin-bottom: 2.25rem;
   }
-
+ 
   .containerButton {
       margin-top: 2.75rem;
       margin-left: 15vw;
   }
-
+ 
   .dogImg {
       height: 50vw;
       bottom: calc(-50vw * 0.65);
       left: 40vw;
   }
-
+ 
   .blankSpace {
       height: 53vw;
   }
@@ -67,26 +67,26 @@
   .containerContent {
       padding: 3rem 1rem 17rem;
   }
-
+ 
   .text404 {
       font-size: 4rem;
   }
-
+ 
   .title {
       font-size: 2.25rem;
       line-height: 3rem;
   }
-
+ 
   .paragraph {
       font-size: 1.125rem;
       line-height: 1.3125rem;
   }
-
+ 
   .containerButton {
       margin: 2.5rem 0 0;
       text-align: center;
   }
-
+ 
   .dogImg {
       position: absolute;
       margin: 0 auto;
@@ -96,7 +96,7 @@
       bottom: calc(-94vw * 0.3);
       max-height: 375px;
   }
-
+ 
   .blankSpace {
       height: calc(94vw * 0.5);
   }
