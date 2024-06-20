@@ -1,5 +1,5 @@
 import MenuLink from "../MenuLink";
-import styles from "./menu.module.css";
+import styles from "./Menu.module.css";
 
 export default function Menu() {
   return (
@@ -9,6 +9,7 @@ export default function Menu() {
           Home
         </MenuLink>
         <MenuLink to="/about">
+          About Me
         </MenuLink>
       </nav>
     </header>

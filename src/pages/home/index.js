@@ -1,11 +1,17 @@
-import Banner from "../../components/Banner";
+import Post from "components/Post"
+import styles from "./Home.module.css"
+import posts from "json/posts.json"
 
 export default function Home() {
   return (
-    <main>
-      <Banner />
-      
-      <h1>Hello World!</h1>
-    </main>
+    <ul className={styles.posts}>
+      {
+        posts.map((post) => (
+          <li key={post.id}>
+            <Post post={post} />
+          </li>
+        ))
+      }
+    </ul>
   );
 }
